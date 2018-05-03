@@ -20,8 +20,8 @@ public class TPCMainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent login=new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(login);
-                Toast.makeText(getApplicationContext(), "Clicked Image Button",
-                        Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Welcome to Training and Placement Cell,COCSIT",
+                        Toast.LENGTH_LONG).show();
             }
         });
 
