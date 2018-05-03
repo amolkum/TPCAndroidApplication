@@ -20,7 +20,7 @@ public class TPCMainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent login=new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(login);
-                Toast.makeText(getApplicationContext(), "Welcome to Training and Placement Cell,COCSIT",
+                Toast.makeText(getApplicationContext(), "Welcome to Training and Placement Cell, COCSIT",
                         Toast.LENGTH_LONG).show();
             }
         });
